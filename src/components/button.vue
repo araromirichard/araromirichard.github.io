@@ -15,7 +15,7 @@
       >
         {{ btnName }}
       </v-btn>
-     
+
     </v-hover>
   </div>
 </template>
@@ -26,7 +26,7 @@ export default {
   props: {
     btnName: String
   },
-  data(){
+  data () {
     return {
       //
     }
