@@ -41,7 +41,7 @@
           <v-app-bar-nav-icon dark v-on="on"></v-app-bar-nav-icon>
         </template>
         <v-card>
-          <v-app-bar flat color="blue-grey darken-2">
+          <v-app-bar flat color="blue-grey darken-2 px-8">
             <v-app-bar-title
               ><span class="text-lowercase text-h4">araromi</span
               ><span class="text-capitalize pink--text darken-4 text-h5"
@@ -50,7 +50,7 @@
             >
             <v-spacer></v-spacer>
             <v-btn dark icon @click.native="dialog = false">
-              <v-icon>close</v-icon>
+              <v-icon>mdi-close</v-icon>
             </v-btn>
           </v-app-bar>
 

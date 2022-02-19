@@ -18,7 +18,7 @@
       </v-btn>
       <v-btn
       v-if="$vuetify.breakpoint.smAndDown"
-        small
+        
         class="ma-2"
         rounded2
         outlined
