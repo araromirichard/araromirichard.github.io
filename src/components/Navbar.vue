@@ -21,7 +21,7 @@
       <v-btn text @click="scroll('project')">Projects</v-btn>
       <v-btn text @click="scroll('contact')">Contact</v-btn>
     </v-app-bar>
-    <v-app-bar app dark color="blue-grey darken-3" class="hidden-sm-and-up">
+    <v-app-bar app dark color="blue-grey darken-3" class="hidden-sm-and-up pr-10">
       <v-btn plain>
         <v-icon large color="#40C4FF"> fas fa-code-compare </v-icon>
         <span class="text-lowercase text-h4">araromi</span

@@ -9,7 +9,7 @@
           <div
             class="glass d-flex flex-column justify-center align-center ml-1 ml-sm-8 mt-sm-12"
             :style="{
-              width: `${$vuetify.breakpoint.mdAndUp ? '80%' : '90%'}`,
+              width: `${$vuetify.breakpoint.mdAndUp ? '80%' : '95%'}`,
             }"
           >
             <div class="home-info">
@@ -24,8 +24,8 @@
               </p>
             </div>
             <div class="mt-10 d-flex justify-center align-center">
-              <MyButton :btnName="btnText" />
-              <MyButton :btnName="contactme" />
+              <MyButton  :btnName="btnText" />
+              <MyButton :action="navigate" :btnName="contactme" />
             </div>
           </div>
         </v-col>
@@ -128,6 +128,7 @@ export default {
     return {
       btnText: 'Download Cv',
       contactme: 'Contact Me',
+      navigate: '#contact',
       typeValue: '',
       typeStatus: false,
       typeArray: [
