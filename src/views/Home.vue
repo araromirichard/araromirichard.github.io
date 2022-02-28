@@ -24,7 +24,7 @@
               </p>
             </div>
             <div class="mt-10 d-flex justify-center align-center">
-              <MyButton  :btnName="btnText" />
+              <MyButton :action="action" :btnName="btnText" />
               <MyButton :action="navigate" :btnName="contactme" />
             </div>
           </div>
@@ -126,6 +126,7 @@ export default {
   },
   data () {
     return {
+      action: 'https://drive.google.com/file/d/1geco0hdriFNFe0hs5Lfii4bp2hMim7r2/view?usp=sharing',
       btnText: 'Download Cv',
       contactme: 'Contact Me',
       navigate: '#contact',
